@@ -28,7 +28,9 @@ namespace KeikoObfuscator.Renaming
         public string NewName { get; set; }
 
         public void Apply(IObfuscationContext context)
-        {
+		{
+
+			
             foreach (var symbol in Symbols)
             {
                 symbol.Member.Name = NewName;

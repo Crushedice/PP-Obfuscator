@@ -58,3 +58,16 @@ C:\Users\Allan Ridha\Desktop\KeikoObfuscator\KeikoObfuscator.Cui\obj\Debug\Keiko
 C:\Users\Allan Ridha\Desktop\KeikoObfuscator\KeikoObfuscator.Cui\obj\Debug\KeikoObfuscator.Cui.csproj.CopyComplete
 C:\Users\Allan Ridha\Desktop\KeikoObfuscator\KeikoObfuscator.Cui\obj\Debug\KeikoObfuscator.Cui.exe
 C:\Users\Allan Ridha\Desktop\KeikoObfuscator\KeikoObfuscator.Cui\obj\Debug\KeikoObfuscator.Cui.pdb
+S:\RUSTICALANDPROJECTS(SpeedDrive)\PPObfuscator\KeikoObfuscator.Cui\bin\Debug\KeikoObfuscator.Cui.exe.config
+S:\RUSTICALANDPROJECTS(SpeedDrive)\PPObfuscator\KeikoObfuscator.Cui\bin\Debug\KeikoObfuscator.Cui.exe
+S:\RUSTICALANDPROJECTS(SpeedDrive)\PPObfuscator\KeikoObfuscator.Cui\bin\Debug\KeikoObfuscator.Cui.pdb
+S:\RUSTICALANDPROJECTS(SpeedDrive)\PPObfuscator\KeikoObfuscator.Cui\bin\Debug\KeikoObfuscator.dll
+S:\RUSTICALANDPROJECTS(SpeedDrive)\PPObfuscator\KeikoObfuscator.Cui\bin\Debug\Mono.Cecil.dll
+S:\RUSTICALANDPROJECTS(SpeedDrive)\PPObfuscator\KeikoObfuscator.Cui\bin\Debug\KeikoObfuscator.pdb
+S:\RUSTICALANDPROJECTS(SpeedDrive)\PPObfuscator\KeikoObfuscator.Cui\obj\Debug\KeikoObfuscator.Cui.csprojAssemblyReference.cache
+S:\RUSTICALANDPROJECTS(SpeedDrive)\PPObfuscator\KeikoObfuscator.Cui\obj\Debug\KeikoObfuscator.Cui.csproj.CoreCompileInputs.cache
+S:\RUSTICALANDPROJECTS(SpeedDrive)\PPObfuscator\KeikoObfuscator.Cui\obj\Debug\KeikoObfuscator.Cui.csproj.CopyComplete
+S:\RUSTICALANDPROJECTS(SpeedDrive)\PPObfuscator\KeikoObfuscator.Cui\obj\Debug\KeikoObfuscator.Cui.exe
+S:\RUSTICALANDPROJECTS(SpeedDrive)\PPObfuscator\KeikoObfuscator.Cui\obj\Debug\KeikoObfuscator.Cui.pdb
+S:\RUSTICALANDPROJECTS(SpeedDrive)\PPObfuscator\KeikoObfuscator.Cui\bin\Debug\Newtonsoft.Json.dll
+S:\RUSTICALANDPROJECTS(SpeedDrive)\PPObfuscator\KeikoObfuscator.Cui\bin\Debug\Newtonsoft.Json.xml

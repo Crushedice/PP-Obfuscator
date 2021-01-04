@@ -47,12 +47,30 @@ namespace KeikoObfuscator.Renaming
             var symbolType = new SymbolTypeDefinition(type);
             Report.TypesToRename.Add(symbolType);
 
-            foreach (var nestedType in type.NestedTypes)
-                AnalyseType(nestedType);
+			foreach (var nestedType in type.NestedTypes)
+			{
+            #if DEBUG
+				Logger.logger("NestedType: "+nestedType.FullName);
 
-            //if (type.IsEnum || type.IsValueType)
-            //    return;
-            //
+                #endif
+
+				AnalyseType(nestedType);
+
+
+			}
+
+			if (type.IsEnum || type.IsValueType)
+			{
+            #if DEBUG
+
+            Logger.logger("Type Returned void : " );
+
+                #endif
+
+				return;
+			}
+
+			//
             //if (!symbolType.Type.IsNested)
             AnalyseFieldsInType(symbolType);
 
@@ -66,10 +84,17 @@ namespace KeikoObfuscator.Renaming
             
             foreach (var field in symbolType.Type.Fields)
             {
-                if (field.IsSpecialName || field.IsRuntimeSpecialName)
-                    continue;
-                
-                var fieldOverload = overloads.FirstOrDefault(
+				if (field.IsSpecialName || field.IsRuntimeSpecialName || (Obfuscator.current.SkipPublicFields && field.IsPublic) )
+				{
+#if DEBUG
+                    Console.Write("Field in Symboltype skipped.");
+					Logger.logger("Field Skipped: " + field.Name);
+#endif
+
+					continue;
+				}
+
+				var fieldOverload = overloads.FirstOrDefault(
                     overload => overload.Symbols.All(
                         x => ((FieldDefinition)x.Member).FieldType != field.FieldType));
 
@@ -89,10 +114,19 @@ namespace KeikoObfuscator.Renaming
             var overloads = new List<SymbolOverload>();
             foreach (var method in symbolType.Type.Methods)
             {
-                if (method.IsSpecialName || method.IsRuntimeSpecialName || method.IsVirtual)
-                    continue;
-                
-                var methodOverload = overloads.FirstOrDefault(
+				if (method.IsSpecialName || method.IsRuntimeSpecialName || method.IsVirtual|| (Obfuscator.current.SkipPublicMethods && method.IsPublic)|| (Obfuscator.current.SkipPrivateMethods && method.IsPrivate))
+				{
+                #if DEBUG
+
+                    Console.Write("Method Skipped." );
+                    Logger.logger("Method Skipped: " + method.Name);
+                #endif
+					continue;
+
+
+				}
+
+				var methodOverload = overloads.FirstOrDefault(
                     overload => overload.Symbols.All(
                         x =>
                         {
@@ -142,7 +176,7 @@ namespace KeikoObfuscator.Renaming
 
             foreach (var property in symbolType.Type.Properties)
             {
-                if (property.IsSpecialName || property.IsRuntimeSpecialName)
+                if (property.IsSpecialName || property.IsRuntimeSpecialName )
                     continue;
 
                 var propertyOverload = overloads.FirstOrDefault(

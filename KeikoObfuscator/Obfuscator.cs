@@ -1,13 +1,17 @@
 ﻿using System;
+using System.IO;
 using KeikoObfuscator.JunkGeneration;
 using KeikoObfuscator.Renaming;
 using Mono.Cecil;
 namespace KeikoObfuscator
 {
     public static class Obfuscator
-    {
+	{
+		public static Opts current;
         public static void Obfuscate(AssemblyDefinition assembly, ILogOutput logOutput)
-        {
+		{
+
+			StartupSettings();
             logOutput.WriteMessage("Obfuscator module written by Marwix (2016).");
             logOutput.WriteMessage("---------------------------------------------------");
 
@@ -48,5 +52,30 @@ namespace KeikoObfuscator
 
 
         }
+
+		static void StartupSettings()
+		{
+			if (File.Exists("Opt.json"))
+			{
+
+			 current = Opts.FromJson(File.ReadAllText("Opt.json"));
+
+			}
+			else
+			{
+				var sett = new Opts()
+				{
+					SkipPrivateMethods = false,
+					SkipPublicFields = false,
+					SkipPublicMethods = false
+				};
+                File.WriteAllText("Opt.json",sett.ToJson());
+
+				current = sett;
+
+			}
+
+
+		}
     }
 }

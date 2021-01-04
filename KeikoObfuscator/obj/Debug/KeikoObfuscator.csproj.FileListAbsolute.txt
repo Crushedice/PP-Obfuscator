@@ -29,3 +29,12 @@ C:\Users\Allan Ridha\OneDrive\Programmering\Private Obfuscator (Selling)\KeikoOb
 C:\Users\Allan Ridha\OneDrive\Programmering\Private Obfuscator (Selling)\KeikoObfuscator\KeikoObfuscator\KeikoObfuscator\obj\Debug\KeikoObfuscator.csprojResolveAssemblyReference.cache
 C:\Users\Allan Ridha\OneDrive\Programmering\Private Obfuscator (Selling)\KeikoObfuscator\KeikoObfuscator\KeikoObfuscator\obj\Debug\KeikoObfuscator.dll
 C:\Users\Allan Ridha\OneDrive\Programmering\Private Obfuscator (Selling)\KeikoObfuscator\KeikoObfuscator\KeikoObfuscator\obj\Debug\KeikoObfuscator.pdb
+S:\RUSTICALANDPROJECTS(SpeedDrive)\PPObfuscator\KeikoObfuscator\bin\Debug\KeikoObfuscator.dll
+S:\RUSTICALANDPROJECTS(SpeedDrive)\PPObfuscator\KeikoObfuscator\bin\Debug\KeikoObfuscator.pdb
+S:\RUSTICALANDPROJECTS(SpeedDrive)\PPObfuscator\KeikoObfuscator\obj\Debug\KeikoObfuscator.csproj.CoreCompileInputs.cache
+S:\RUSTICALANDPROJECTS(SpeedDrive)\PPObfuscator\KeikoObfuscator\obj\Debug\KeikoObfuscator.csproj.CopyComplete
+S:\RUSTICALANDPROJECTS(SpeedDrive)\PPObfuscator\KeikoObfuscator\obj\Debug\KeikoObfuscator.dll
+S:\RUSTICALANDPROJECTS(SpeedDrive)\PPObfuscator\KeikoObfuscator\obj\Debug\KeikoObfuscator.pdb
+S:\RUSTICALANDPROJECTS(SpeedDrive)\PPObfuscator\KeikoObfuscator\bin\Debug\Newtonsoft.Json.dll
+S:\RUSTICALANDPROJECTS(SpeedDrive)\PPObfuscator\KeikoObfuscator\bin\Debug\Newtonsoft.Json.xml
+S:\RUSTICALANDPROJECTS(SpeedDrive)\PPObfuscator\KeikoObfuscator\obj\Debug\KeikoObfuscator.csprojAssemblyReference.cache

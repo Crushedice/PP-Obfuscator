@@ -10,3 +10,10 @@ D:\Jerre\Jerre's Documents\Visual Studio 2015\Projects\KeikoObfuscator\KeikoObfu
 D:\Jerre\Jerre's Documents\Visual Studio 2015\Projects\KeikoObfuscator\KeikoObfuscator.TestApplication\obj\Debug\KeikoObfuscator.TestApplication.csprojResolveAssemblyReference.cache
 D:\Jerre\Jerre's Documents\Visual Studio 2015\Projects\KeikoObfuscator\KeikoObfuscator.TestApplication\obj\Debug\KeikoObfuscator.TestApplication.exe
 D:\Jerre\Jerre's Documents\Visual Studio 2015\Projects\KeikoObfuscator\KeikoObfuscator.TestApplication\obj\Debug\KeikoObfuscator.TestApplication.pdb
+S:\RUSTICALANDPROJECTS(SpeedDrive)\PPObfuscator\KeikoObfuscator.TestApplication\bin\Debug\KeikoObfuscator.TestApplication.exe.config
+S:\RUSTICALANDPROJECTS(SpeedDrive)\PPObfuscator\KeikoObfuscator.TestApplication\bin\Debug\KeikoObfuscator.TestApplication.exe
+S:\RUSTICALANDPROJECTS(SpeedDrive)\PPObfuscator\KeikoObfuscator.TestApplication\bin\Debug\KeikoObfuscator.TestApplication.pdb
+S:\RUSTICALANDPROJECTS(SpeedDrive)\PPObfuscator\KeikoObfuscator.TestApplication\obj\Debug\KeikoObfuscator.TestApplication.csprojAssemblyReference.cache
+S:\RUSTICALANDPROJECTS(SpeedDrive)\PPObfuscator\KeikoObfuscator.TestApplication\obj\Debug\KeikoObfuscator.TestApplication.csproj.CoreCompileInputs.cache
+S:\RUSTICALANDPROJECTS(SpeedDrive)\PPObfuscator\KeikoObfuscator.TestApplication\obj\Debug\KeikoObfuscator.TestApplication.exe
+S:\RUSTICALANDPROJECTS(SpeedDrive)\PPObfuscator\KeikoObfuscator.TestApplication\obj\Debug\KeikoObfuscator.TestApplication.pdb
